@@ -2,16 +2,26 @@
 
 .site-header__wrapper {
   display: flex;
+  align-items: center;
 }
 .site-header__left-wrapper {
+  padding-top: 65px;
+  background-color: $bg-dark;
 }
-.container {
-}
+
 .logo {
+  display: block;
 }
+
 .logo-img {
+  display: block;
 }
+
 .site-header__heading {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 72px;
+  color: $white;
 }
 .site-header__text {
 }
