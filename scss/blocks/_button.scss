@@ -1,0 +1,18 @@
+.button {
+  padding: 24px 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid $white;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+}
+
+.button--dark {
+  &:hover {
+    background-color: $white;
+    color: $bg-dark;
+  }
+}

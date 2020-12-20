@@ -432,6 +432,23 @@ img {
   margin-right: auto;
 }
 
+.button {
+  padding: 24px 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.button--dark:hover {
+  background-color: #fff;
+  color: #111;
+}
+
 .site-header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,11 +456,44 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-header__left-wrapper {
   padding-top: 65px;
+  padding-bottom: 190px;
   background-color: #111;
+}
+
+.site-header__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  max-width: 710px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 72px;
+  color: #fff;
+}
+
+.site-header__text {
+  margin: 0;
+  margin-bottom: 42px;
+  max-width: 445px;
+  width: 100%;
+  color: #fff;
+}
+
+.site-header__right-wrapper {
+  max-width: 810px;
+  width: 100%;
+}
+
+.site-header__right-img {
+  max-width: 1500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .logo {
@@ -452,13 +502,7 @@ img {
 
 .logo-img {
   display: block;
-}
-
-.site-header__heading {
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 72px;
-  color: #fff;
+  margin-bottom: 150px;
 }
 
 .site-main {
